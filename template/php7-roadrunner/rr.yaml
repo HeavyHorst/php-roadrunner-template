@@ -1,0 +1,6 @@
+http:
+  address: :5070
+  workers:
+    command: "php /home/app/function/worker.php"
+    pool:
+      numWorkers: 8
